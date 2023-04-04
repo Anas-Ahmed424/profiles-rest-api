@@ -11,3 +11,4 @@ class UpdateOwnProfile(permissions.BasePermission):
         
         return obj.id == request.user.id
 
+ 
